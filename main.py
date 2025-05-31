@@ -5,7 +5,7 @@ from pyrogram import filters
 from pyrogram.client import Client
 from pyrogram.types import Message
 
-load_dotenv()
+load_dotenv(".env")
 api_id = os.getenv("API_KEY")
 api_hash = os.getenv("API_HASH")
 DISCORD_WEBHOOK_URL = os.getenv("DISCORD_WEBHOOK_URL")
